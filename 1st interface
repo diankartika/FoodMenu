@@ -5,7 +5,6 @@ void clearScreen() {
 #ifdef _WIN32
     system("cls");
 #else
-    // Assume Unix-like system
     system("clear");
 #endif
 }
