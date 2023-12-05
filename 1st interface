@@ -16,11 +16,11 @@ int main() {
     cout << "<><><><><><><><><><><><><><><><><><><><><><><>" << endl;
 
     cout << endl;
-    cout << "1. Lihat daftar menu yang tersedia" << endl;
-    cout << "2. Tambahkan menu baru" << endl;
-    cout << "3. Perbarui informasi menu" << endl;
-    cout << "4. Hapus informasi menu" << endl;
-    cout << "5. Keluar" << endl;
+    cout << "1 | Lihat daftar menu yang tersedia" << endl;
+    cout << "2 | Tambahkan menu baru" << endl;
+    cout << "3 | Perbarui informasi menu" << endl;
+    cout << "4 | Hapus informasi menu" << endl;
+    cout << "5 | Keluar" << endl;
 
     int pilihan;
     cout << endl;
