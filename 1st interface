@@ -11,40 +11,40 @@ void clearScreen() {
 }
 
 int main() {
-clearScreen();
-  cout << "<><><><><><><><><><><><><><><><><><><><><><><>" << endl;
-  cout << "            CAFE OF JAVA ISLAND" << endl;
-  cout << "<><><><><><><><><><><><><><><><><><><><><><><>" << endl;
-
-  cout << endl;
-  cout << "1. Lihat daftar menu yang tersedia" << endl;
-  cout << "2. Tambahkan menu baru" << endl;
-  cout << "3. Perbarui informasi menu" << endl;
-  cout << "4. Hapus informasi menu" << endl;
-  cout << "5. Keluar" << endl;
-
-  int pilihan;
-  cout << endl;
-  cout << "Pilih menu yang ingin Anda akses: ";
-  cin >> pilihan;
-
-  switch (pilihan) {
-    case 1:
-      break;
-    case 2:
-      break;
-    case 3:
-      break;
-    case 4:
-      break;
-    case 5:
     clearScreen();
-      cout << "Terima kasih telah menggunakan katalog kami!" << endl;
-      return 0;
-    default:
-      cout << "Pilihan tidak valid. Silakan pilih 1-5." << endl;
-      break;
-  }
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><>" << endl;
+    cout << "            CAFE OF JAVA ISLAND" << endl;
+    cout << "<><><><><><><><><><><><><><><><><><><><><><><>" << endl;
 
-  return main();
+    cout << endl;
+    cout << "1. Lihat daftar menu yang tersedia" << endl;
+    cout << "2. Tambahkan menu baru" << endl;
+    cout << "3. Perbarui informasi menu" << endl;
+    cout << "4. Hapus informasi menu" << endl;
+    cout << "5. Keluar" << endl;
+
+    int pilihan;
+    cout << endl;
+    cout << "Pilih menu yang ingin Anda akses: ";
+    cin >> pilihan;
+
+    switch (pilihan) {
+    case 1:
+        break;
+    case 2:
+        break;
+    case 3:
+        break;
+    case 4:
+        break;
+    case 5:
+        clearScreen();
+        cout << "Terima kasih telah menggunakan katalog kami!" << endl;
+        return 0;
+    default:
+        cout << "Pilihan tidak valid. Silakan pilih 1-5." << endl;
+        break;
+    }
+
+    return main();
 }
